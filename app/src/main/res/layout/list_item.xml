@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+   <GridLayout
+      android:orientation="vertical"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:useDefaultMargins="true"
+      android:columnCount="2"
+      android:rowCount="2"
+      android:layout_weight="1">
+
+       <!-- This makes the article titles and such big -->
+      <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:id="@+id/titleTextView"
+         android:layout_column="0"
+         android:text="LargeText"
+         android:layout_columnSpan="2"/>
+
+      <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/datePubView"
+         android:layout_column="0"
+         android:layout_row="1"
+         android:text="New Text"
+         android:layout_columnWeight="1"/>
+
+   </GridLayout>
+
+</LinearLayout>

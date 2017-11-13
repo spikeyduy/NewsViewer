@@ -1,0 +1,14 @@
+<resources>
+   <string name="app_name">NewsViewer</string>
+   <string name="api_key">6ebfae92f4d24e26b79b76ce1f57e02d</string>
+   <string name="web_service_url1">https://newsapi.org/v1/articles?source=bbc-news&amp;sortBy=top&amp;apiKey=</string>
+   <string name="web_service_url2">https://newsapi.org/v1/articles?source=business-insider&amp;sortBy=top&amp;apiKey=</string>
+   <string name="web_service_url3">https://newsapi.org/v1/articles?source=ars-technica&amp;sortBy=top&amp;apiKey=</string>
+   <string name="invalid_url">Invalid URL</string>
+   <string name="date_pub">Date published: %s</string>
+   <string name="article_title">%1$s</string>
+   <string name="hint_text">Enter city (e.g, Boston, MA, US)</string>
+   <string name="read_error">Unable to read news data</string>
+   <string name="connect_error">Unable to connect to newsApi.org</string>
+   <string name="action_settings">News Viewer</string>
+</resources>
